@@ -34,6 +34,6 @@ install:
   - ls bin/ -l
   - echo "TODO"
   - gem install dpl --pre
-  - dpl releases --token $GITHUB_TOKEN --file "bin/teplica64bit.apk" --tag_name "v.0.1"
+  - dpl releases --token $GITHUB_TOKEN --file "bin/teplica.apk" --tag_name "v.0.1"
 script:
   - echo "OK"
